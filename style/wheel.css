@@ -28,6 +28,7 @@
   
   /* общий блок для всех элементов */
   .deal-wheel {
+    display: none;
     /* задаём переменные блока */
     /* размеры колеса */
     position: absolute;
@@ -172,6 +173,7 @@
     color: white;
   }
 
+  
 
   .wheel__center__1 {
       position: absolute;
@@ -283,8 +285,53 @@
 @media(max-width: 740px){
   .wheel__wrapper {
     top: 200px;
-    left: 7%;
+    left: 2.5%;
   }
+  .text {
+    font-size: 14px;
+    font-weight: 100;
+    margin-left: -10px!important;
+  }
+  .wheel__center__1 {
+    margin-top: 100px;
+    margin-left: 258px;
+    width: 180px;
+    height: 180px;
+}
+
+.wheel__center__2 {
+    margin-top: 105px;
+    margin-left: 266px;
+    width: 170px;
+    height: 170px;
+}
+
+.wheel__center__text {
+font-size: 35px;
+margin-top: 166px;
+margin-left: 326px;
+}
+  .wheel {
+    width: 500px;
+    height: 500px;
+    margin-left: 97px;
+    margin-top: -64px;
+   }
+ 
+   .wheel__light {
+    width: 440px;
+    height: 440px;
+    margin-left: 90px;
+    margin-top: -69px;
+   }
+   .deal-wheel {
+    margin-top: 100px;
+    --size: clamp(250px, 80vmin, 380.17px);
+   }
+   .title__title {
+    width: 80%;
+    font-size: 30px;
+   }
 }
 
 
@@ -293,6 +340,75 @@
     top: 200px;
     margin-left:-100px ;
   }
+
+}
+
+@media (max-width: 550px) {
+  .wheel__wrapper {
+    top: 100px;
+    left: 0%;
+  }
+  .text {
+    font-size: 11px;
+    font-weight: 500;
+    margin-left: -10px!important;
+  }
+  .wheel__center__1 {
+    margin-top: 80px;
+    margin-left: 238px;
+    width: 120px;
+    height: 120px;
+}
+
+.wheel__center__2 {
+    margin-top: 85px;
+    margin-left: 240px;
+    width: 110px;
+    height: 110px;
+}
+
+.wheel__center__text {
+font-size: 28px;
+margin-top: 123px;
+margin-left: 280px;
+}
+  .wheel {
+    width: 400px;
+    height: 400px;
+    margin-left: 97px;
+    margin-top: -64px;
+   }
+ 
+   .wheel__light {
+    width: 340px;
+    height: 340px;
+    margin-left: 90px;
+    margin-top: -69px;
+   }
+   .deal-wheel {
+    margin-top: 100px;
+    margin-left: -10px;
+    margin-right: 149px;
+    --size: clamp(250px, 80vmin, 300.17px);
+   }
+   .title__title {
+    width: 100%;
+    line-height: 40px;
+    font-size: 30px;
+    padding-right: 30px;
+   }
+   .btn-spin{
+    left: 230px;
+    top: -200px;
+    width: 250px;
+    height: 50px;
+    font-size: 16px;
+    padding-top: 10px;
+   }
+   .block__input {
+    top: 40px;
+    left: -705px;
+   }
 }
 
 

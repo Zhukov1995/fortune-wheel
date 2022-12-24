@@ -3,7 +3,7 @@
     position: absolute;
     top: -900px;
     max-width: 1930px;
-    height: 1189px;
+    min-height: 1189px;
     background: radial-gradient(39.99% 41.3% at 50% 50%, #B456FF 0%, #131313 100%);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     overflow: hidden;
@@ -322,9 +322,7 @@ border-radius: 6px;
         font-size: 30px;
         padding-top: 50px;
     }
-    .form {
-        left: 28%;
-    }
+    
     .prize__btn__get {
         width: 300px;
         height: 80px;
@@ -343,5 +341,12 @@ border-radius: 6px;
         padding-top: 40px;
         margin-top: 10px;
         height: 120px;
+    }
+}
+
+@media(max-width: 450px){
+    .form {
+       left: -50%;
+        width: 100%;
     }
 }

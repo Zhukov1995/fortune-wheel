@@ -2,7 +2,7 @@
     max-width: 1920px;
     /* min-width: 850px; */
     min-height: 935px;
-    max-height: 1250px;
+    /* max-height: 1250px; */
     position: relative;
     background: radial-gradient(39.99% 41.3% at 50% 50%, #B456FF 0%, #131313 100%) #070007;
     overflow: hidden;
@@ -274,5 +274,8 @@ background-color: transparent;
     .block__input {
         top: 440px;
         left: -570px;
+    }
+    .wrapper {
+        height: 800px;
     }
   }
