@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/wheel.css">
+    <link rel="stylesheet" href="./style/prize.css">
+    <title>Fortune Wheel</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="block__input">
+            <input type="text" placeholder="Введите промокод" class="input-promo">
+            <button type="button" class="btn-input">Применить</button>
+        </div>
+        <div class="wrapper__content">
+            <img src="./img/background/конфетти фиолетовое.png" alt="confety_purple" class="confety_purple">
+            <img src="./img/background/конфетти фиолетовое (1).png" alt="confety_purple" class="confety_purple1">
+            <img src="./img/background/конфетти розовое.png" alt="confety_pink" class="confety_pink">
+            <div class="wheel__wrapper">
+                <img src="./img/wheel/круг фон.png" alt="#" class="wheel">
+                <img src="./img/wheel/Блики вокруг круга.png" alt="#" class="wheel__light">
+                <img src="./img/wheel/круг центр.png" alt="#" class="wheel__center__1">
+                <img src="./img/wheel/круг центр 2.png" alt="#" class="wheel__center__2">
+                <h3 class="wheel__center__text">Da</h3>
+                <div class="deal-wheel">
+                    <div class="ticker"></div>
+                    <ul class="spinner"></ul>
+                    <button class="btn-spin">ОСТАЛОСЬ 0/0 ПРОКРУТОК</button>
+                </div>
+            </div>
+            <h1 class="title__title">КОЛЕСО ФОРТУНЫ DADADANCE</h1>
+            <div class="title">
+                <div class="title__block">
+                    <div class="sub__block__1">
+                        <div class="block__1__corner"></div>
+                    </div>
+                    <div class="sub__block__2"></div>
+                </div>
+            </div>
+        </div>
+        <div class="visual__line__wrapper__1">
+            <div class="visual__line__1"></div>
+            <div class="visual__subline__1"></div>
+        </div>
+        <div class="visual__line__wrapper__2">
+            <div class="visual__line__2"></div>
+            <div class="visual__subline__2"></div>
+        </div>
+
+
+        <div class="prize__wrapper">
+            <img src="./img/background/конфетти розовое.png" alt="#" class="prize__backgroud1">
+            <img src="./img/background/конфетти фиолетовое (1).png" alt="#" class="prize__backgroud2">
+            <img src="./img/background/конфетти фиолетовое.png" alt="#" class="prize__backgroud3">
+            <div class="prize__content">
+                <div class="price__title">
+                    <h2 class="prize__title1">Поздравляем</h2>
+                    <hr class="line__title">
+                    <h3 class="prize__title2">Ваш приз</h3>
+                </div>
+                <div class="prize__block">
+                    <div class="target__prize">REHAB.YOU - СКИДКА НА МАССАЖ 25%</div>
+                    <div class="prize__block__longBorder1">
+                        <div class="prize__block__rectangle1">
+                            <div class="prize__block__subrectangle1">
+                                <div class="subrectangle1__line"></div>
+                            </div>
+                        </div>
+                        <div class="prize__block__corner1"></div>
+                    </div>
+                    <div class="prize__block__longBorder2">
+                        <div class="prize__block__rectangle2">
+                            <div class="prize__block__subrectangle2">
+                                <div class="subrectangle2__line"></div>
+                            </div>
+                        </div>
+                        <div class="prize__block__corner2"></div>
+                    </div>
+                </div>
+                <button class="prize__btn__get">Получить</button>
+                <button class="prize__btn__continue">Продолжить</button>
+            </div>
+            <form class="form" action="./script/send.php" method="post">
+                <legend class="form__title">Для получения приза введите свои данные - с вами свяжется наш менеджер
+                    и сообщит способ получения</legend>
+                <input type="text" name="fio" placeholder="ФИО" class="form__input" required>
+                <input type="tel" name="tel" placeholder="ТЕЛЕФОН" class="form__input" required>
+                <input type="email" name="email" placeholder="ПОЧТА" class="form__input" required>
+                <input type="text" name="prize" class="form__input form__prize" readonly>
+                <div class="confidentiality">
+                    <input type="checkbox" id="confidentiality__input" name="confidentiality" required>
+                    <label for="confidentiality__input">Я получил(а) и принял(а) <span
+                            class="confidentiality__link">Privicy policy</span></label>
+                </div>
+                <button type="submit" class="form__btn">Получить подарок</button>
+            </form>
+        </div>
+    </div>
+    <script src="./script/wheel.js"></script>
+</body>
+
+</html>

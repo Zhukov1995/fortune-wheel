@@ -1,0 +1,347 @@
+.prize__wrapper {
+    z-index: 50;
+    position: absolute;
+    top: -900px;
+    max-width: 1930px;
+    height: 1189px;
+    background: radial-gradient(39.99% 41.3% at 50% 50%, #B456FF 0%, #131313 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+    position: relative;
+    display: none;
+}
+
+.prize__backgroud1 {
+    position: absolute;
+    width: 1892px;
+    height: 1261.33px;
+    left: 51.32px;
+    top: -122px;
+    opacity: 0.5;
+    transform: rotate(9deg);
+}
+.prize__backgroud2 {
+    position: absolute;
+    width: 1106.08px;
+    height: 1375.55px;
+    left: 204px;
+    top: 223.59px;
+    opacity: 0.5;
+    transform: rotate(-46.52deg);
+}
+.prize__backgroud3 {
+    position: absolute;
+    width: 2354px;
+    height: 1569.33px;
+    left: 2384.21px;
+    top: 196.69px;
+    opacity: 0.5;
+    transform: rotate(135deg);
+}
+
+
+.prize__content {
+    width: 1243px;
+    height: 673px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.prize__title1 {
+    font-family: 'TT Norms';
+    font-weight: bold;
+    font-size: 150px;
+    line-height: 0px;
+    color: #FFFFFF;
+}
+.line__title {
+    color: white;
+}
+.prize__title2 {
+     font-family: 'TT Norms';
+     font-weight: bold;
+    font-size: 75px;
+    line-height: 0px;
+    color: #FFFFFF;
+}
+.prize__block {
+    position: relative;
+    height: 245px;
+    /* border: 1px solid orange; */
+    margin-bottom: 50px;
+    padding-top: 50px;
+}
+.target__prize {
+box-sizing: border-box;
+font-size: 48px;
+font-family: 'TT Norms';
+font-weight: bold;
+text-transform: uppercase;
+margin: 0 auto;
+width: 1041px;
+height: 147px;
+color: #FFFFFF;
+left: 449px;
+top: 553px;
+padding-top: 45px;
+background: #AC53F2;
+border: 1px solid #F329A1;
+box-shadow: 6px -6px 20px #F329A1, -6px 6px 20px #F329A1;
+border-radius: 6px;
+}
+
+.prize__block__longBorder1 {
+    width: 425px;
+    height: 245px;
+    top: 0%;
+    position: absolute;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    clip-path: polygon(20% 0%, 100% 0, 100% 20%, 100% 100%, 80% 100%, 8% 100%, 0 76%, 0 0);
+}
+.prize__block__rectangle1 {
+    width: 103px;
+    height: 106px;
+    margin-top: 138px;
+    border-bottom: 1px solid white;
+    clip-path: polygon(20% 0%, 100% 0, 100% 20%, 100% 100%, 80% 100%, 14% 100%, 0 62%, 0 0);
+}
+
+.prize__block__subrectangle1 {
+    width: 49px;
+    height: 106px;
+    border-left: 3px solid white;
+    border-bottom: 3px solid white;
+    clip-path: polygon(20% 0%, 100% 0, 100% 20%, 100% 100%, 80% 100%, 14% 100%, 0 62%, 0 0);
+}
+
+.subrectangle1__line {
+    width: 70px;
+    position: absolute;
+    border: 2px solid white;
+    transform: rotate(60deg);
+    margin-top: 80px;
+    left: -14px
+}
+
+.prize__block__corner1 {
+    width: 263px;
+    height: 38px;
+    position: absolute;
+    top: 0;
+    border-left: 3px solid white;
+    border-top: 3px solid white;
+    margin-top: 0px;
+}
+
+.prize__block__longBorder2 {
+    width: 563px;
+    height: 245px;
+    position: absolute;
+    top: 0;
+    left: 54.7%;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    clip-path: polygon(20% 0%, 96% 0, 100% 20%, 100% 100%, 80% 100%, 0 100%, 0 76%, 0 0);
+}
+.prize__block__rectangle2 {
+    width: 133px;
+    height: 72px;
+    margin-left: 430px;
+    border-top: 1px solid white;
+    clip-path: polygon(20% 0%, 84% 0, 100% 58%, 100% 100%, 80% 100%, 0 100%, 0 76%, 0 0);
+}
+
+.prize__block__subrectangle2 {
+    width: 37px;
+    height: 72px;
+    margin-left: 95px;
+    border-top: 3px solid white;
+    border-right: 3px solid white;
+    clip-path: polygon(20% 0%, 84% 0, 100% 58%, 100% 100%, 80% 100%, 0 100%, 0 76%, 0 0);
+}
+
+.subrectangle2__line {
+    width: 70px;
+    position: absolute;
+    border: 2px solid white;
+    transform: rotate(64deg);
+    margin-top: 10px;
+    right: -19px
+}
+
+.prize__block__corner2 {
+    width: 263px;
+    height: 38px;
+    position: absolute;
+    margin-top: 134px;
+    margin-left: 299px;
+    border-right: 3px solid white;
+    border-bottom: 3px solid white;
+
+}
+
+
+.prize__btn__get {
+    width: 400px;
+    height: 100px;
+    border: none;
+    clip-path: polygon(20% 0%, 89% 0, 100% 33%, 100% 100%, 80% 100%, 10% 100%, 0 63%, 0 0);
+    background: #F329A1;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 0px;
+    font-size: 48px;
+    font-weight: bold;
+    cursor: pointer;
+     font-family: 'TT Norms';
+}
+
+.prize__btn__continue {
+    width: 400px;
+    height: 100px;
+    border: none;
+    clip-path: polygon(20% 0%, 89% 0, 100% 33%, 100% 100%, 80% 100%, 10% 100%, 0 63%, 0 0);
+    background:#AC53F2;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 0px;
+    font-size: 48px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'TT Norms';
+}
+
+/* Форма ===============================================*/
+
+.form {
+    position: absolute;
+    top: 5%;
+    left: 37%;
+    width: 400px;
+    min-width: 322px;
+    height: 600px;
+    background: #FFFFFF;
+    border: 1px solid #F329A1;
+    border-radius: 8px;
+    z-index: 150;
+    display: none;
+   
+    margin-top: 126px;
+    padding: 46px 17px 46px 17px;
+}
+.form__title {
+    font-size: 18px;
+    text-align: center;
+    color: #000000;
+    font-weight: bold;
+    font-family: 'TT Norms';
+    margin-bottom: 26px;
+    text-align: center;
+}
+.form__input {
+    width: 350px;
+    min-width: 288px;
+    height: 60px;
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 17px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+
+.confidentiality {
+    font-size: 16px;
+    height: 40px;
+    color: rgb(149, 149, 149);
+    margin-left: 8px;
+    margin-top: 20px;
+}
+
+.confidentiality__link {
+    text-decoration: underline;
+}
+
+.form__btn {
+    width: 256px;
+    height: 64px;
+    border: none;
+    clip-path: polygon(20% 0%, 89% 0, 100% 33%, 100% 100%, 80% 100%, 10% 100%, 0 63%, 0 0);
+    background: #F329A1;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 0px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 8px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+     font-family: 'TT Norms';
+}
+
+@media(max-width: 1400px){
+    .prize__content {
+        width: 900px;
+    }
+    .prize__title1 {
+        font-size: 100px;
+        line-height: 0px;
+    }
+    .line__title {
+        color: white;
+    }
+    .prize__title2 {
+        font-size: 50px;
+        line-height: 20px;
+    }
+    .prize__block {
+        height: 245px;
+    }
+    .target__prize {
+    width: 800px;
+    }
+    .prize__block__longBorder2{
+        left: 38%;
+    }
+}
+
+@media(max-width: 970px){
+    .prize__content {
+        width: 700px;
+        margin-top: 200px;
+    }
+    .prize__title1 {
+        font-size: 80px;
+        line-height: 0px;
+    }
+    .target__prize {
+        width: 600px;
+        font-size: 30px;
+        padding-top: 50px;
+    }
+    .form {
+        left: 28%;
+    }
+    .prize__btn__get {
+        width: 300px;
+        height: 80px;
+        font-size: 32px;
+    }
+    
+    .prize__btn__continue {
+        width: 300px;
+        height: 80px;
+        font-size: 32px;
+    }
+    .prize__block__longBorder2{
+        left: 20%;
+    }
+    .target__prize {
+        padding-top: 40px;
+        margin-top: 10px;
+        height: 120px;
+    }
+}
