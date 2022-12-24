@@ -32,6 +32,7 @@
     /* размеры колеса */
     position: absolute;
     padding-top: -160px;
+    /* min-width: 500px; */
     padding-left: 85px;
     margin-right: 55px;
     padding-bottom: 30px;
@@ -286,6 +287,13 @@
   }
 }
 
+
+@media(max-width: 690px){
+  .wheel__wrapper {
+    top: 200px;
+    margin-left:-100px ;
+  }
+}
 
 
 

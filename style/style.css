@@ -1,6 +1,6 @@
 .wrapper {
     max-width: 1920px;
-    min-width: 850px;
+    /* min-width: 850px; */
     min-height: 935px;
     max-height: 1250px;
     position: relative;
@@ -266,3 +266,13 @@ background-color: transparent;
         margin-top: -40px;
     }
 }
+
+@media(max-width: 690px){
+    .title__title {
+        width: 90%;
+    }
+    .block__input {
+        top: 440px;
+        left: -570px;
+    }
+  }
