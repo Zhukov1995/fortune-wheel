@@ -385,6 +385,7 @@ border-radius: 6px;
     .form {
         width: 400px;
         margin-left: -140px;
+        margin-top: 20px;
     }
     .form__input{
         width: 95%;
