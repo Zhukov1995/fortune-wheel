@@ -279,3 +279,15 @@ background-color: transparent;
         height: 800px;
     }
   }
+
+  @media(max-height: 700px) {
+    .wrapper__content {
+        margin-top: -26px;
+    }
+  }
+
+  @media(max-height: 500px) {
+    .wrapper__content {
+        margin-top: -156px;
+    }
+  }

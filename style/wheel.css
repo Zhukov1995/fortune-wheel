@@ -412,6 +412,81 @@ margin-left: 277px;
    }
 }
 
+@media(max-height: 700px) {
+  .wheel__wrapper {
+    top: 100px;
+    left: 3%;
+  }
+  .text {
+    font-size: 14px;
+    font-weight: 100;
+    margin-left: -10px!important;
+  }
+  .wheel__center__1 {
+    margin-top: 100px;
+    margin-left: 258px;
+    width: 180px;
+    height: 180px;
+}
+
+.wheel__center__2 {
+    margin-top: 105px;
+    margin-left: 266px;
+    width: 170px;
+    height: 170px;
+}
+
+.wheel__center__text {
+font-size: 35px;
+margin-top: 166px;
+margin-left: 326px;
+}
+  .wheel {
+    width: 500px;
+    height: 500px;
+    margin-left: 97px;
+    margin-top: -64px;
+   }
+ 
+   .wheel__light {
+    width: 440px;
+    height: 440px;
+    margin-left: 90px;
+    margin-top: -69px;
+   }
+   .deal-wheel {
+    margin-top: 100px;
+    --size: clamp(250px, 80vmin, 380.17px);
+   }
+   .title__title {
+    width: 400px;
+    line-height: 50px;
+    margin-left: 130px;
+    font-size: 38px;
+   }
+   .btn-spin {
+      left: -3%;
+      margin-top: 360px;
+      
+   }
+   .block__input {
+    top: -100px;
+   }
+}
+
+@media(max-height: 500px) {
+  .title__title {
+    width: 400px;
+    line-height: 50px;
+    margin-left: 130px;
+    margin-top: -90px;
+    font-size: 38px;
+  }
+   .block__input {
+    top: -230px;
+   }
+}
+
 
 
 
