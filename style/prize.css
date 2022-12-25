@@ -460,6 +460,8 @@ border-radius: 6px;
     }
 }
 
+
+
 @media(max-width: 350px) {
     .form {
         width: 300px;
