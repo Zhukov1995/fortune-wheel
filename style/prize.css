@@ -67,7 +67,6 @@
 .prize__block {
     position: relative;
     height: 245px;
-    /* border: 1px solid orange; */
     margin-bottom: 50px;
     padding-top: 50px;
 }
@@ -389,6 +388,12 @@ border-radius: 6px;
     }
     .form__input{
         width: 95%;
+    }
+    .prize__content {
+        margin-top: 100px;
+    }
+    .prize__block {
+        margin-bottom: 10px;
     }
 }
 
