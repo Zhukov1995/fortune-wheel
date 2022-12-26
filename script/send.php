@@ -25,14 +25,19 @@ $prize = trim($prize);
 
 $subject = "Заявка с сайта Колесо фортуны";
 
+$email1 = "dadadancecalendar@gmail.com";
+$email2 = "zevs322013@gmail.com";
+$email3 = "romanzhukov561@gmail.com";
+
 $message = "
 ФИО: $fio \n
 Телефон: $tel \n
 Почта $email \n
 Выигрыш: $prize";
-if (mail("romanzhukov561@gmail.com", $subject, $message ,"From: romanzhukov561@gmail.com \r\n"))
- {     echo "сообщение успешно отправлено";
-   
+if (mail($email1, $subject, $message ,"From: $email1\r\n"))
+    mail($email2, $subject, $message ,"From: $email2 \r\n");
+    mail($email3, $subject, $message ,"From: $email3 \r\n");
+    header("Location: thanks.html");
 } else {
     echo "при отправке сообщения возникли ошибки";
 }?>
