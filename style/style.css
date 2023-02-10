@@ -1,8 +1,10 @@
+body {
+    overflow: hidden;
+}
+
 .wrapper {
-    max-width: 1920px;
-    /* min-width: 850px; */
+    width: 1900px;
     min-height: 935px;
-    /* max-height: 1250px; */
     position: relative;
     background: radial-gradient(39.99% 41.3% at 50% 50%, #B456FF 0%, #131313 100%) #070007;
     overflow: hidden;
@@ -13,8 +15,7 @@
 .wrapper__content {
     width: 1209px;
     height: 809px;
-    margin: 0 auto;
-    margin-top: 126px;
+    margin-left: 140px;
 }
       
 .confety_purple {
@@ -53,19 +54,19 @@ background-color: transparent;
     height: 246px;
     position: absolute;
     top: 14%;
-    left: 34.5%;
+    left: 24.5%;
     z-index: -1;
     border-bottom: 2px solid white;
 }
 
 .title__title {
     position: absolute;
-    left: 44%;
+    left: 40%;
     top: 150px;
     display: block;
-    width: 800px;
+    width: 600px;
     height: 150px;
-    font-size: 48px;
+    font-size: 44px;
     line-height: 80px;   
     color: #FFFFFF;
     text-align: center;
@@ -118,7 +119,7 @@ background-color: transparent;
     width: 455px;
     position: absolute;
     top: 76%;
-    left: 69.5%;
+    left: 59.5%;
     transform: rotate(-90deg);
 }
 .visual__line__1 {
@@ -135,8 +136,8 @@ background-color: transparent;
 .visual__line__wrapper__2 {
     width: 345px;
     position: absolute;
-    top: 67%;
-    left: 47%;
+    top: 64.8%;
+    left: 30%;
     z-index: -1;
 }
 .visual__line__2 {
@@ -153,7 +154,7 @@ background-color: transparent;
     width: 300px;
     z-index: 20;
     position: absolute;
-    margin-left: 1110px;
+    margin-left: 920px;
     margin-top: 508px;
 }
 .input-promo {
@@ -185,109 +186,3 @@ background-color: transparent;
 
 
 
-
-
-.wheel__wrapper {
-    width: 703px;
-    height: 703px;
-    position: relative;
-}
-
-.wheel {
-    width: 703px;
-    height: 703px;
-    position: absolute;
-}
-
-.wheel__light {
-    width: 630px;
-    height: 630px;
-    top: 39px;
-    left: 36px;
-    position: absolute;
-}
-
-@media(max-width: 1710px){
-    .block__input {
-        margin-left: 900px;
-    }
-    .title {
-        left: 33%;
-    }
-    
-}
-
-@media(max-width: 1400px){
-    .visual__line__wrapper__1 {
-        display: none;
-    }
-    .visual__line__wrapper__2 {
-        display: none;
-    }
-    .block__input {
-        margin-left: 750px;
-    }
-    .title {
-        display: none;
-    }
-}
-
-@media(max-width: 1150px){
-    .title__title {
-        left: 10%;
-    }
-    .wrapper {
-        height: 1500px;
-    }
-    .block__input {
-        top: 620px;
-        left: -390px;
-    }
-}
-
-@media(max-width: 900px){
-    .title__title {
-        left: 3.5%;
-    }
-    .wrapper__content {
-        width: 1109px;
-        height: 809px;
-        margin: 0 auto;
-        margin-top: 126px;
-    }
-    .block__input {
-        top: 440px;
-        left: -470px;
-    }
-    .title__title {
-        top: 10px;
-    }
-    .wrapper__content {
-        margin-top: -40px;
-    }
-}
-
-@media(max-width: 690px){
-    .title__title {
-        width: 90%;
-    }
-    .block__input {
-        top: 440px;
-        left: -570px;
-    }
-    .wrapper {
-        height: 800px;
-    }
-  }
-
-  @media(max-height: 700px) {
-    .wrapper__content {
-        margin-top: -26px;
-    }
-  }
-
-  @media(max-height: 500px) {
-    .wrapper__content {
-        margin-top: -156px;
-    }
-  }
