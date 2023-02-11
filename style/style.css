@@ -1,9 +1,10 @@
 body {
     overflow: hidden;
+    margin: 0 auto;
 }
 
 .wrapper {
-    width: 1900px;
+    min-width: 1900px;
     min-height: 935px;
     position: relative;
     background: radial-gradient(39.99% 41.3% at 50% 50%, #B456FF 0%, #131313 100%) #070007;
