@@ -284,9 +284,9 @@ border-radius: 6px;
 
 @media(max-width: 1800px) {
     .prize__content {
-        margin-left: 300px;
+        margin-left: 245px;
     }
     .form {
-        margin-left: -100px;
+        margin-left: -170px;
     }
 }
