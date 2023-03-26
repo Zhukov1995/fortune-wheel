@@ -2,14 +2,13 @@
     z-index: 50;
     position: absolute;
     top: -820px;
-    left: -175px;
-    max-width: 1930px;
-    min-height: 1189px;
+    width: 100%;
+    min-height: 1050px;
     background: radial-gradient(39.99% 41.3% at 50% 50%, #B456FF 0%, #131313 100%);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     overflow: hidden;
-    position: relative;
     display: none;
+    position: relative;
 }
 
 .prize__backgroud1 {
@@ -282,3 +281,12 @@ border-radius: 6px;
      font-family: 'TT Norms';
 }
 
+
+@media(max-width: 1800px) {
+    .prize__content {
+        margin-left: 300px;
+    }
+    .form {
+        margin-left: -100px;
+    }
+}

@@ -4,8 +4,8 @@ body {
 }
 
 .wrapper {
-    min-width: 1900px;
-    min-height: 935px;
+    width: 1900px;
+    height: 1000px;
     position: relative;
     background: radial-gradient(39.99% 41.3% at 50% 50%, #B456FF 0%, #131313 100%) #070007;
     overflow: hidden;
