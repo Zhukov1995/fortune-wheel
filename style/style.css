@@ -1,11 +1,13 @@
 body {
     overflow: hidden;
     margin: 0 auto;
+    position: relative;
 }
 
 .wrapper {
     width: 1900px;
     height: 1000px;
+    min-height: 690px;
     position: relative;
     background: radial-gradient(39.99% 41.3% at 50% 50%, #B456FF 0%, #131313 100%) #070007;
     overflow: hidden;
@@ -81,7 +83,6 @@ background-color: transparent;
     border-right: 3px solid white;
     border-top: 2px solid white;
     clip-path: polygon(0 0, 75% 0, 100% 25%, 100% 80%, 100% 100%, 20% 100%, 0 100%, 0% 20%);
-    
 }
 
 
@@ -182,6 +183,28 @@ background-color: transparent;
     font-size: 24px;
     cursor: pointer;
      font-family: 'TT Norms';
+}
+
+@media(min-width: 1600px) {
+    .wrapper__content {
+        margin-left: 300px;
+    }
+    .title {
+        left: 30%;
+    }
+    .title__title {
+        left: 47%;
+    }
+    .block__input {
+        margin-top: 550px;
+        margin-left: 1080px;
+    }
+    .visual__line__wrapper__1 {
+        left: 65%;
+    }
+    .visual__line__wrapper__2 {
+        left: 36%;
+    }
 }
 
 

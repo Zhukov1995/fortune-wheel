@@ -285,7 +285,11 @@
     }
   }
 
-
+  @media(min-width: 1600px) {
+    .wheel__wrapper {
+      margin-top: 50px;
+    }
+  }
 
 
 
